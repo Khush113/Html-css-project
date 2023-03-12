@@ -1,0 +1,65 @@
+/* .outer{
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+}
+.inner{
+    width: 50%;
+    margin: 10px auto;
+    outline: 2px saddlebrown solid;
+    outline-offset: -5px;
+    text-align: center;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: rebeccapurple;
+}
+.absolute{
+     position: absolute;
+     top: 0;
+     margin-bottom: 20px;
+} */
+
+html{
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+}
+
+.red{
+    background-color: rgb(222, 183, 131);
+}
+.blue{
+    background-color: rgb(167, 191, 191);
+}
+.green{
+    background-color: rgb(201, 218, 176);
+}
+
+header,footer{
+    font-size: 2rem;
+    height: 100px;
+    text-align: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+footer{
+    background-color: rgb(197, 171, 224);
+    position: fixed;
+    bottom: 0px;
+   
+}
+.social{
+     position: fixed;
+     padding: 1rem;
+     top: 30%;
+     left: 0;
+     z-index: 1;
+}

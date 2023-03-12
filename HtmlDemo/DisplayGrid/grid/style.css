@@ -1,0 +1,34 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    height: 50vh;
+    grid-template-areas: "hd hd hd hd hd "
+                          "mn mn mn as as"
+                          "ft ft ft ft ft";
+    gap: 2rem;  
+    row-gap: 1rem;                    
+                         
+                         
+}
+header{
+    grid-area: hd;
+    background-color: aqua;
+}
+main{
+    grid-area: mn;
+    
+    background-color: rgba(61, 197, 43, 0.411);
+}
+aside{
+    grid-area: as;
+    background-color: rgb(123, 0, 255);
+}
+footer{
+    grid-area: ft;
+    background-color: aqua;
+}
+.box{
+    height: 40px;
+   
+
+}

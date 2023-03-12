@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+header, footer{
+    position: sticky;
+    background-color: rgb(51, 51, 69);
+    height: 60px;
+    width: inherit;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+ h2{
+    margin: 1rem;
+}
+
+header ul {
+    display: flex;
+    margin-right: 2rem;
+}
+ nav ul li{
+    list-style: none;
+    margin: 1rem;
+ }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    background-image: radial-gradient(whitesmoke, grey);
+    width:inherit;
+    max-width: inherit;
+    gap: 2rem;
+    /* margin-top: 5rem;
+    margin-bottom: 5rem; */
+    margin: 3rem 0rem 3rem 0;
+    
+}
+
+footer{
+    bottom: 0;
+}
+footer h2{
+    text-align: center;
+}
+
+.box{
+    width: 25%;
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+
+
+.box1{
+    background-image: url('Images/pexels-ian-turnell-709552.jpg');
+}
+.box2{
+    background-image: url('Images/pexels-pixabay-2438.jpg');
+}
+.box3{
+    background-image: url('Images/pexels-matthew-montrone-1179225.jpg');
+}
+
+.box4{
+    background-image: url('Images/pexels-eberhard-grossgasteiger-572897.jpg');
+
+}
+
+.box5{
+    background-image: url('Images/pexels-luis-dalvan-1770809.jpg');
+}
+.box6{
+    background-image: url('Images/pexels-luis-del-río-15286.jpg');
+}
+
+@media screen and (max-width:768px) {
+  
+
+      .box{
+        width: 80%;
+        height: 200px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+      }
+
+      nav{
+        display: none;
+      }
+}

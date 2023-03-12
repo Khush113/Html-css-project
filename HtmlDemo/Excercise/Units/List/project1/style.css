@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+       width: 50%;
+      
+       margin: 10px auto;
+       border: 2px solid red;
+       border-radius: 20px;
+}
+nav{
+    border: 2px solid gray;
+    border-radius: 20px ;
+    text-align: center;
+    margin: 2px;
+    
+}
+h1{
+    background-color: palegoldenrod;
+    border-radius: 5px;
+    border-radius: 20px  20px 0px 0px ;
+    
+    
+}
+ul li:hover{
+ background: paleturquoise;
+}
+
+ul li:last-child{
+    border-radius: 0rem 0rem 20rem 20rem ;
+    
+}
+section{
+    columns: 3 250px;
+}
+

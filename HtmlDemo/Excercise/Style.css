@@ -1,0 +1,19 @@
+body{
+    color: chartreuse;
+}
+p{
+    text-align: center;
+    text-decoration: underline;
+    word-spacing: 0%;
+    font-variant: small-caps;
+    font-stretch: wider;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+   /* color:#000;*/
+}
+/* .D{
+    color: purple;
+} */
+/* #E{
+    color:red;
+} */

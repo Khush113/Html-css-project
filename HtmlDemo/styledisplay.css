@@ -1,0 +1,38 @@
+/*header{
+    width: 900px;
+    margin: 10px auto;
+}
+div {
+    display: inline-block;
+   /* border: 1px saddlebrown solid;
+    width: 900px;
+    text-align: center;
+    background-color: aquamarine;
+}
+ul li{
+    display: inline-block;
+    padding-left: 10px;
+    border-bottom: 1px saddlebrown solid;
+}*/
+*{
+    margin: 0px;
+}
+nav{
+   /* border: 2px solid rebeccapurple;*/
+   background-color: aqua;
+}
+nav ul{
+   /* border: 2px solid rgb(209, 198, 219);*/
+    text-align: center;
+    
+}
+nav ul li{
+  display: inline-block;
+  margin: 2px 5px;
+  border-bottom: 1px solid gray;
+  text-transform: capitalize;
+
+}
+nav ul li{
+list-style: none;
+}

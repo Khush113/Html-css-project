@@ -1,0 +1,19 @@
+body{
+    width: 100%;
+   
+}
+div{
+    width: 50%;
+    margin: 10px auto;
+    font-size: 20px;
+    border: 2px solid green;
+}
+li{
+    text-align: center;
+    list-style-position: inside;
+}
+ul ::marker{
+    content: '@';
+    list-style-position: inside;
+    
+}

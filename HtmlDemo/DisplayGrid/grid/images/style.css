@@ -1,0 +1,126 @@
+/* section{
+  
+   margin: 2rem;
+   padding: 1rem;
+   border-bottom:  2px solid red ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+ img{
+    width: 35%;
+    height: auto;
+    border: 1px dodgerblue double;
+    border-radius: 50%;
+}
+
+/* section .pic img{
+    display: inline;
+    width: 32%;
+    height: auto;
+    border: 1px dodgerblue double;
+    border-radius: 50%;
+} */
+
+/* div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+img{
+    width: 35%;
+    height: auto;
+    border: 1px dodgerblue double;
+    border-radius: 50%;
+}
+/* .hero{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+} */ 
+
+/* .hero {
+    border-bottom: 2px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+  
+    background-color: hsla(0, 0%, 100%, 0.35);
+  
+  }
+  
+  .h1 {
+    font-size: 500%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px #000;
+    /* background-color: hsla(0, 0%, 0%, 0.403);
+    padding: 0.25rem;
+    border-radius: 10px; */
+   /* }
+  
+  .profile-pic-figure {
+    width: 35%;
+  }
+  
+  .profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;
+  } */ 
+div{
+    background-image: url('background1\ \(3\).jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.hero{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     /* background-image: url('background1\ \(3\).jpg');
+     background-repeat: repeat;
+     background-size: cover;
+     background-color: hsla(222, 207, 207, 678); */
+     background-color: hsla(0, 0%, 100%, 0.35);
+}
+.profile-pic-figure{
+    width: 35%;
+}
+  img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 2px double red;
+    border-radius: 50%;
+  }
+
+  
+  .h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px #6d5e5e;
+   
+   }
+
+   /*utility class*/
+   .nowrap{
+       white-space: nowrap;
+   }
+
+   section  h1{
+        font-size: 7rem;
+        background-image: url('background1\ \(3\).jpg');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: cover;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: hsla(0, 0%, 100%, 0.35);
+   }

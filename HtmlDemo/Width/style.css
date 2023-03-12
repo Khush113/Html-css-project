@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    height: 50vh;
+}
+html{
+    height: 100%;
+}
+body{
+      background-color: blanchedalmond;
+      height: 100%;
+      width: 100%;
+}
+
+.main{
+    height: 100%;
+    border: 2px saddlebrown solid;
+}
+.box{
+    min-height: 20%;
+    border: 2px saddlebrown solid;
+}

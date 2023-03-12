@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,600&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    
+    border: 2px double red;
+    padding: 1.2rem;
+    outline: 2px solid rebeccapurple;
+    outline-offset: 5px ;
+
+   
+}
+p{
+    font-size: 0.8em;
+}
+.circle{
+    margin: 10px auto;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid gold;
+    border-radius: 50%;;
+    outline: 2px solid blue;;
+    outline-offset: 5px;
+}
+input,button{
+    font: inherit;
+}
+a:visited{
+    color:rebeccapurple;
+}
+a:hover, a:focus{
+    color:pink;
+}
+
+a:active{
+    color: black;
+}

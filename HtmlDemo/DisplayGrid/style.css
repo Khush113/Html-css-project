@@ -1,0 +1,30 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+.box{
+    background-color: rgb(231, 71, 71);
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+.main-container{
+    display: grid;
+   
+   /* grid-auto-flow: column;*/
+   grid-template-columns:repeat(3, 1fr 2fr 1fr);
+   grid-template-rows: minmax(150px ,auto);
+   gap: 1rem;
+}
+
+.box:first-child{
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;;
+    grid-row-end: 4;
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
